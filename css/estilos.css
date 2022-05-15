@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#main {
+    background: rgb(56,233,34);
+    background: radial-gradient(circle, rgba(56,233,34,1) 0%, rgba(160,213,128,1) 0%, rgba(24,203,24,1) 100%);
+}
+
+.contdesc {
+    background: rgb(56,233,34);
+    background: radial-gradient(circle, rgba(56,233,34,1) 0%, rgba(160,213,128,1) 0%, rgba(24,203,24,1) 100%);
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 85px;
+    animation-name: whatsappAnimation;
+	animation-iteration-count: 2;
+	animation-timing-function: linear;
+	animation-duration: .5s;
+	animation-delay: 2s;
+}
+
+@keyframes whatsappAnimation {
+	0% {transform: translatey(0px);}
+	25% {transform: rotate(30deg);}
+	50% {transform: translatey(-10px);}
+	75% {transform: rotate(30deg);}
+	100% {transform: translatey(0px);}
+}
+
+
+#mainContacto {
+    background-image: url(../assets/fondocontacto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
